@@ -1,4 +1,5 @@
 import Header from "./Components/Header";
+import Providers from "./Components/Providers";
 // import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -13,11 +14,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {/* Header */}
-        <Header />
-        {/* Navbar */}
-        {/* SearchBox */}
-        {children}
+        <Providers>
+          {/* Header */}
+          <Header />
+          {/* Navbar */}
+          {/* SearchBox */}
+
+          {children}
+        </Providers>
       </body>
     </html>
   );
