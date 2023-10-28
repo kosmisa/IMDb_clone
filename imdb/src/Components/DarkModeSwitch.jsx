@@ -10,14 +10,18 @@ export default function DarkModeSwitch() {
 
     useEffect(() => setMounted(true), []);
 
+    if (!mounted) {
+      return null;
+    }
+
     const currentTheme = theme === "system" ? systemTheme : theme;
   
-  return (
+    return (
     <>
         {mounted && (currentTheme === "dark" ? (
-            <BsSun className='text-xl cursor-pointer hover:text-yellow-400' onClick={()=>setTheme("light")}/>
+            <BsSun className='text-xl cursor-pointer hover:text-yellow-400' onClick={()=>setTheme('light')}/>
         ):(
-            <BsMoonStarsFill className='text-xl cursor-pointer hover:text-blue-600' onClick={()=>setTheme("dark")}/>
+            <BsMoonStarsFill className='text-xl cursor-pointer hover:text-blue-600' onClick={()=>setTheme('dark')}/>
         ))}
     </>
   )
