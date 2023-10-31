@@ -1,8 +1,6 @@
 # IMDb_clone
 
-<h1>This is personal pet project with intention to practice NEXT.js 13</h1>
-
-<p>Pet project</p>
+<p>This is personal pet project done with NEXT.JS . Click on the image bellow to check the site</p>
 
 <a href="https://im-db-clone-dun.vercel.app/">
 <img src="IMDb-clone.png" width="300" href;'>s
