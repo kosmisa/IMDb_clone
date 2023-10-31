@@ -1,5 +1,5 @@
 import Results from '@/Components/Results';
-import error from '@/app/error';
+import Error from '@/app/error';
 import React from 'react'
 
 export default async function SearchPage({params}) {
