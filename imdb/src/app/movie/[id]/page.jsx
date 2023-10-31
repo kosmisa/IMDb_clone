@@ -20,7 +20,7 @@ export default async function MoviePage({params}) {
                         blurDataURL='/loading_animation.svg'
                         alt='Error: image is not available'
                         width={270}
-                        height={300} 
+                        height={200} 
                     ></Image>
                     <div className='p-2'>
                         {/* Title */}

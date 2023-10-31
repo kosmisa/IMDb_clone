@@ -15,8 +15,8 @@ export default function Card({result}) {
                 style={{maxWidth: '100%', height: "auto"}}
                 blurDataURL='/loading_animation.svg'
                 alt='Error image is not available'
-                width={500}
-                height={300}
+                width={200}
+                height={200}
             ></Image>
                 <div className='p-2'>
                     <h2 className='truncate text-lg font-bold text-indigo-700 dark:text-sky-400'>{result.title || result.name}</h2>
