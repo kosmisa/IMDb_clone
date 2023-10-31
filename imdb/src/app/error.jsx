@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react'
 
 
-export default function error({error, reset}) {
+export default function Error({error, reset}) {
     useEffect(() => {
         console.log(error)
     },[error]);
@@ -13,7 +13,7 @@ export default function error({error, reset}) {
         <h2>Something went wrong</h2>
         <button className=' dark:bg-sky-800 bg-orange-600 rounded-full'
         onClick={()=> reset()}>
-            <span className='dark:hover:text-teal-400 hover:text-yellow-500 font-semibold py-2 px-2 hover:animate-pulse '>Try Again</span>
+            <span className='dark:hover:text-teal-400 hover:text-yellow-500 font-semibold py-2 px-2 hover:animate-pulse'>Try Again</span>
         </button>
     </div>
   )
