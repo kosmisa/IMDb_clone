@@ -19,8 +19,8 @@ export default function Card({result}) {
                 height={300}
             ></Image>
                 <div className='p-2'>
-                    <p className='line-clamp-3 text-md dark:text-teal-400 text-orange-700'>{result.overview}</p>
-                        <h2 className='truncate text-lg font-bold text-indigo-700 dark:text-sky-400'>{result.title || result.name}</h2>
+                    <h2 className='truncate text-lg font-bold text-indigo-700 dark:text-sky-400'>{result.title || result.name}</h2>
+                        <p className='line-clamp-3 text-md dark:text-teal-400 text-orange-700'>{result.overview}</p>
                             <p className='flex items-center dark:text-sky-300 text-indigo-600'>
                                 {result.release_date || result.first_air_dat}
                                 <GoHeartFill className='h-5 mr-1 ml-3 text-red-600 dark:text-red-400' /> {result.vote_count}
