@@ -9,14 +9,14 @@ export default function Card({result}) {
                     sm:border dark:sm:border-sky-400 sm:border-indigo-500 sm:m-2 transition-shadow duration-200 group'>
         <Link href={`/movie/${result.id}`}>
             <Image
-            src={`https://image.tmdb.org/t/p/original/${result.backdrop_paty || result.poster_path}`}
-            className='sm:rounded-t-lg group-hover:opacity-70 duration-200' 
-            placeholder='blur'
-            style={{maxWidth: '100%', height: "auto"}}
-            blurDataURL='/loading_animation.svg'
-            alt='Error image is not available'
-            width={300}
-            height={300}
+                src={`https://image.tmdb.org/t/p/original/${result.backdrop_paty || result.poster_path}`}
+                className='sm:rounded-t-lg group-hover:opacity-70 duration-200' 
+                placeholder='blur'
+                style={{maxWidth: '100%', height: "auto"}}
+                blurDataURL='/loading_animation.svg'
+                alt='Error image is not available'
+                width={500}
+                height={300}
             ></Image>
                 <div className='p-2'>
                     <p className='line-clamp-3 text-md dark:text-teal-400 text-orange-700'>{result.overview}</p>
