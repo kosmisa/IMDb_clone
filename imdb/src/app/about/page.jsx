@@ -10,7 +10,7 @@ export default function page() {
       </p>
 
       <p>
-        If you have any suggestion or critics please leave a comment on this <Link href="https://github.com/kosmisa/IMDb_clone" className='underline md:underline-offset-4 hover:text-red-700'>Page</Link>
+        If you have any suggestion or critics please leave a comment on this <Link className='underline md:underline-offset-4 hover:text-red-700' href="https://github.com/kosmisa/IMDb_clone" >Page</Link>
       </p>
     </div>
   );
