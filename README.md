@@ -4,7 +4,7 @@
 <p>
   <ul>
     <li>Base idea behind this pet project is finished</li>
-    <li>There are few more things i want to add to enrich this project and currently working on them</li>
+    <li>There are few more things i want to add to enrich this project [currently working on them]</li>
   </ul>
 </p>
 
